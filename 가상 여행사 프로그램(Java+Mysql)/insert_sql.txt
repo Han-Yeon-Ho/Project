@@ -1,0 +1,312 @@
+
+=============================================================================================================================
+
+<customer 테이블> - 100개(USER)
+insert into customer values('abc123', 'def123', 'USER', '김영수', '010-1234-5678', '대전 대덕구 홍도동');
+insert into customer values('abc124', 'def124', 'USER', '김영철', '010-1235-5679', '대전 대덕구 홍도동');
+insert into customer values('abc125', 'def125', 'USER', '김영희', '010-1236-5680', '대전 대덕구 홍도동');
+insert into customer values('abc126', 'def126', 'USER', '김영만', '010-1237-5681', '대전 대덕구 홍도동');
+insert into customer values('abc127', 'def127', 'USER', '김영신', '010-1238-5682', '대전 대덕구 홍도동');
+insert into customer values('abc128', 'def128', 'USER', '김창수', '010-1239-5683', '대전 대덕구 홍도동');
+insert into customer values('abc129', 'def129', 'USER', '김창철', '010-1240-5684', '대전 대덕구 홍도동');
+insert into customer values('abc130', 'def130', 'USER', '김창희', '010-1241-5685', '대전 대덕구 홍도동');
+insert into customer values('abc131', 'def131', 'USER', '김창만', '010-1242-5686', '대전 대덕구 홍도동');
+insert into customer values('abc132', 'def132', 'USER', '김창신', '010-1243-5687', '대전 대덕구 홍도동');
+insert into customer values('abc133', 'def133', 'USER', '김선수', '010-1244-5688', '대전 대덕구 홍도동');
+insert into customer values('abc134', 'def134', 'USER', '김선철', '010-1245-5689', '대전 대덕구 홍도동');
+insert into customer values('abc135', 'def135', 'USER', '김선희', '010-1246-5690', '대전 대덕구 홍도동');
+insert into customer values('abc136', 'def136', 'USER', '김선만', '010-1247-5691', '대전 대덕구 홍도동');
+insert into customer values('abc137', 'def137', 'USER', '김선신', '010-1248-5692', '대전 대덕구 홍도동');
+insert into customer values('abc138', 'def138', 'USER', '김현수', '010-1249-5693', '대전 대덕구 홍도동');
+insert into customer values('abc139', 'def139', 'USER', '김현철', '010-1250-5694', '대전 대덕구 홍도동');
+insert into customer values('abc140', 'def140', 'USER', '김현희', '010-1251-5695', '대전 대덕구 홍도동');
+insert into customer values('abc141', 'def141', 'USER', '김현만', '010-1252-5696', '대전 대덕구 홍도동');
+insert into customer values('abc142', 'def142', 'USER', '김현신', '010-1253-5697', '대전 대덕구 홍도동');
+insert into customer values('abc143', 'def143', 'USER', '김동수', '010-1254-5698', '대전 대덕구 홍도동');
+insert into customer values('abc144', 'def144', 'USER', '김동철', '010-1255-5699', '대전 대덕구 홍도동');
+insert into customer values('abc145', 'def145', 'USER', '김동희', '010-1256-5700', '대전 대덕구 홍도동');
+insert into customer values('abc146', 'def146', 'USER', '김동만', '010-1257-5701', '대전 대덕구 홍도동');
+insert into customer values('abc147', 'def147', 'USER', '김동신', '010-1258-5702', '대전 대덕구 홍도동');
+insert into customer values('abc148', 'def148', 'USER', '박영수', '010-1259-5703', '대전 대덕구 홍도동');
+insert into customer values('abc149', 'def149', 'USER', '박영철', '010-1260-5704', '대전 대덕구 홍도동');
+insert into customer values('abc150', 'def150', 'USER', '박영희', '010-1261-5705', '대전 대덕구 홍도동');
+insert into customer values('abc151', 'def151', 'USER', '박영만', '010-1262-5706', '대전 대덕구 홍도동');
+insert into customer values('abc152', 'def152', 'USER', '박영신', '010-1263-5707', '대전 대덕구 홍도동');
+insert into customer values('abc153', 'def153', 'USER', '박창수', '010-1264-5708', '대전 대덕구 홍도동');
+insert into customer values('abc154', 'def154', 'USER', '박창철', '010-1265-5709', '대전 대덕구 홍도동');
+insert into customer values('abc155', 'def155', 'USER', '박창희', '010-1266-5710', '대전 대덕구 홍도동');
+insert into customer values('abc156', 'def156', 'USER', '박창만', '010-1267-5711', '대전 대덕구 홍도동');
+insert into customer values('abc157', 'def157', 'USER', '박창신', '010-1268-5712', '대전 대덕구 홍도동');
+insert into customer values('abc158', 'def158', 'USER', '박선수', '010-1269-5713', '대전 대덕구 홍도동');
+insert into customer values('abc159', 'def159', 'USER', '박선철', '010-1270-5714', '대전 대덕구 홍도동');
+insert into customer values('abc160', 'def160', 'USER', '박선희', '010-1271-5715', '대전 대덕구 홍도동');
+insert into customer values('abc161', 'def161', 'USER', '박선만', '010-1272-5716', '대전 대덕구 홍도동');
+insert into customer values('abc162', 'def162', 'USER', '박선신', '010-1273-5717', '대전 대덕구 홍도동');
+insert into customer values('abc163', 'def163', 'USER', '박현수', '010-1274-5718', '대전 대덕구 홍도동');
+insert into customer values('abc164', 'def164', 'USER', '박현철', '010-1275-5719', '대전 대덕구 홍도동');
+insert into customer values('abc165', 'def165', 'USER', '박현희', '010-1276-5720', '대전 대덕구 홍도동');
+insert into customer values('abc166', 'def166', 'USER', '박현만', '010-1277-5721', '대전 대덕구 홍도동');
+insert into customer values('abc167', 'def167', 'USER', '박현신', '010-1278-5722', '대전 대덕구 홍도동');
+insert into customer values('abc168', 'def168', 'USER', '박동수', '010-1279-5723', '대전 대덕구 홍도동');
+insert into customer values('abc169', 'def169', 'USER', '박동철', '010-1280-5724', '대전 대덕구 홍도동');
+insert into customer values('abc170', 'def170', 'USER', '박동희', '010-1281-5725', '대전 대덕구 홍도동');
+insert into customer values('abc171', 'def171', 'USER', '박동만', '010-1282-5726', '대전 대덕구 홍도동');
+insert into customer values('abc172', 'def172', 'USER', '박동신', '010-1283-5727', '대전 대덕구 홍도동');
+insert into customer values('abc173', 'def173', 'USER', '최영수', '010-1284-5728', '대전 대덕구 홍도동');
+insert into customer values('abc174', 'def174', 'USER', '최영철', '010-1285-5729', '대전 대덕구 홍도동');
+insert into customer values('abc175', 'def175', 'USER', '최영희', '010-1286-5730', '대전 대덕구 홍도동');
+insert into customer values('abc176', 'def176', 'USER', '최영만', '010-1287-5731', '대전 대덕구 홍도동');
+insert into customer values('abc177', 'def177', 'USER', '최영신', '010-1288-5732', '대전 대덕구 홍도동');
+insert into customer values('abc178', 'def178', 'USER', '최창수', '010-1289-5733', '대전 대덕구 홍도동');
+insert into customer values('abc179', 'def179', 'USER', '최창철', '010-1290-5734', '대전 대덕구 홍도동');
+insert into customer values('abc180', 'def180', 'USER', '최창희', '010-1291-5735', '대전 대덕구 홍도동');
+insert into customer values('abc181', 'def181', 'USER', '최창만', '010-1292-5736', '대전 대덕구 홍도동');
+insert into customer values('abc182', 'def182', 'USER', '최창신', '010-1293-5737', '대전 대덕구 홍도동');
+insert into customer values('abc183', 'def183', 'USER', '최선수', '010-1294-5738', '대전 대덕구 홍도동');
+insert into customer values('abc184', 'def184', 'USER', '최선철', '010-1295-5739', '대전 대덕구 홍도동');
+insert into customer values('abc185', 'def185', 'USER', '최선희', '010-1296-5740', '대전 대덕구 홍도동');
+insert into customer values('abc186', 'def186', 'USER', '최선만', '010-1297-5741', '대전 대덕구 홍도동');
+insert into customer values('abc187', 'def187', 'USER', '최선신', '010-1298-5742', '대전 대덕구 홍도동');
+insert into customer values('abc188', 'def188', 'USER', '최현수', '010-1299-5743', '대전 대덕구 홍도동');
+insert into customer values('abc189', 'def189', 'USER', '최현철', '010-1300-5744', '대전 대덕구 홍도동');
+insert into customer values('abc190', 'def190', 'USER', '최현희', '010-1301-5745', '대전 대덕구 홍도동');
+insert into customer values('abc191', 'def191', 'USER', '최현만', '010-1302-5746', '대전 대덕구 홍도동');
+insert into customer values('abc192', 'def192', 'USER', '최현신', '010-1303-5747', '대전 대덕구 홍도동');
+insert into customer values('abc193', 'def193', 'USER', '최동수', '010-1304-5748', '대전 대덕구 홍도동');
+insert into customer values('abc194', 'def194', 'USER', '최동철', '010-1305-5749', '대전 대덕구 홍도동');
+insert into customer values('abc195', 'def195', 'USER', '최동희', '010-1306-5750', '대전 대덕구 홍도동');
+insert into customer values('abc196', 'def196', 'USER', '최동만', '010-1307-5751', '대전 대덕구 홍도동');
+insert into customer values('abc197', 'def197', 'USER', '최동신', '010-1308-5752', '대전 대덕구 홍도동');
+insert into customer values('abc198', 'def198', 'USER', '이영수', '010-1309-5753', '대전 대덕구 홍도동');
+insert into customer values('abc199', 'def199', 'USER', '이영철', '010-1310-5754', '대전 대덕구 홍도동');
+insert into customer values('abc200', 'def200', 'USER', '이영희', '010-1311-5755', '대전 대덕구 홍도동');
+insert into customer values('abc201', 'def201', 'USER', '이영만', '010-1312-5756', '대전 대덕구 홍도동');
+insert into customer values('abc202', 'def202', 'USER', '이영신', '010-1313-5757', '대전 대덕구 홍도동');
+insert into customer values('abc203', 'def203', 'USER', '이창수', '010-1314-5758', '대전 대덕구 홍도동');
+insert into customer values('abc204', 'def204', 'USER', '이창철', '010-1315-5759', '대전 대덕구 홍도동');
+insert into customer values('abc205', 'def205', 'USER', '이창희', '010-1316-5760', '대전 대덕구 홍도동');
+insert into customer values('abc206', 'def206', 'USER', '이창만', '010-1317-5761', '대전 대덕구 홍도동');
+insert into customer values('abc207', 'def207', 'USER', '이창신', '010-1318-5762', '대전 대덕구 홍도동');
+insert into customer values('abc208', 'def208', 'USER', '이선수', '010-1319-5763', '대전 대덕구 홍도동');
+insert into customer values('abc209', 'def209', 'USER', '이선철', '010-1320-5764', '대전 대덕구 홍도동');
+insert into customer values('abc210', 'def210', 'USER', '이선희', '010-1321-5765', '대전 대덕구 홍도동');
+insert into customer values('abc211', 'def211', 'USER', '이선만', '010-1322-5766', '대전 대덕구 홍도동');
+insert into customer values('abc212', 'def212', 'USER', '이선신', '010-1323-5767', '대전 대덕구 홍도동');
+insert into customer values('abc213', 'def213', 'USER', '이현수', '010-1324-5768', '대전 대덕구 홍도동');
+insert into customer values('abc214', 'def214', 'USER', '이현철', '010-1325-5769', '대전 대덕구 홍도동');
+insert into customer values('abc215', 'def215', 'USER', '이현희', '010-1326-5770', '대전 대덕구 홍도동');
+insert into customer values('abc216', 'def216', 'USER', '이현만', '010-1327-5771', '대전 대덕구 홍도동');
+insert into customer values('abc217', 'def217', 'USER', '이현신', '010-1328-5772', '대전 대덕구 홍도동');
+insert into customer values('abc218', 'def218', 'USER', '이동수', '010-1329-5773', '대전 대덕구 홍도동');
+insert into customer values('abc219', 'def219', 'USER', '이동철', '010-1330-5774', '대전 대덕구 홍도동');
+insert into customer values('abc220', 'def220', 'USER', '이동희', '010-1331-5775', '대전 대덕구 홍도동');
+insert into customer values('abc221', 'def221', 'USER', '이동만', '010-1332-5776', '대전 대덕구 홍도동');
+insert into customer values('abc222', 'def222', 'USER', '이동신', '010-1333-5777', '대전 대덕구 홍도동');
+
+<customer 테이블> - 1개(MASTER)
+insert into customer values('master', 'master', 'master', '관리자', '010-1001-9009', '대전 대덕구 홍도동');
+
+<airplane_seat 테이블> - 5개
+insert into airplane_seat values('보잉777-300ER', 300);
+insert into airplane_seat values('보잉737', 310);
+insert into airplane_seat values('에어버스A330', 315);
+insert into airplane_seat values('에어버스A321', 320);
+insert into airplane_seat values('에어버스A320', 325);
+
+<airplane 테이블> - 25개
+insert into airplane values('GHI456', '보잉777-300ER', '대한항공');
+insert into airplane values('GHI457', '보잉777-300ER', '아시아나항공');
+insert into airplane values('GHI458', '보잉777-300ER', '진에어');
+insert into airplane values('GHI459', '보잉777-300ER', '에어서울');
+insert into airplane values('GHI460', '보잉777-300ER', '이스타항공');
+insert into airplane values('GHI461', '보잉737', '대한항공');
+insert into airplane values('GHI462', '보잉737', '아시아나항공');
+insert into airplane values('GHI463', '보잉737', '진에어');
+insert into airplane values('GHI464', '보잉737', '에어서울');
+insert into airplane values('GHI465', '보잉737', '이스타항공');
+insert into airplane values('GHI466', '에어버스A330', '대한항공');
+insert into airplane values('GHI467', '에어버스A330', '아시아나항공');
+insert into airplane values('GHI468', '에어버스A330', '진에어');
+insert into airplane values('GHI469', '에어버스A330', '에어서울');
+insert into airplane values('GHI470', '에어버스A330', '이스타항공');
+insert into airplane values('GHI471', '에어버스A321', '대한항공');
+insert into airplane values('GHI472', '에어버스A321', '아시아나항공');
+insert into airplane values('GHI473', '에어버스A321', '진에어');
+insert into airplane values('GHI474', '에어버스A321', '에어서울');
+insert into airplane values('GHI475', '에어버스A321', '이스타항공');
+insert into airplane values('GHI476', '에어버스A320', '대한항공');
+insert into airplane values('GHI477', '에어버스A320', '아시아나항공');
+insert into airplane values('GHI478', '에어버스A320', '진에어');
+insert into airplane values('GHI479', '에어버스A320', '에어서울');
+insert into airplane values('GHI480', '에어버스A320', '이스타항공');
+
+<airport 테이블> - 15개
+insert into airport values('JKL789', '한국', '인천', '010-5678-1234');
+insert into airport values('JKL790', '한국', '부산', '010-5679-1235');
+insert into airport values('JKL791', '한국', '제주도', '010-5680-1236');
+insert into airport values('JKL792', '중국', '베이징', '010-5681-1237');
+insert into airport values('JKL793', '중국', '광저우', '010-5682-1238');
+insert into airport values('JKL794', '중국', '상하이', '010-5683-1239');
+insert into airport values('JKL795', '일본', '나리타', '010-5684-1240');
+insert into airport values('JKL796', '일본', '주부', '010-5685-1241');
+insert into airport values('JKL797', '일본', '오사카', '010-5686-1242');
+insert into airport values('JKL798', '러시아', '셰레메티예보', '010-5687-1243');
+insert into airport values('JKL799', '러시아', '이르쿠츠크', '010-5688-1244');
+insert into airport values('JKL800', '러시아', '풀코보', '010-5689-1245');
+insert into airport values('JKL801', '미국', '보스턴', '010-5690-1246');
+insert into airport values('JKL802', '미국', '애틀란타', '010-5691-1247');
+insert into airport values('JKL803', '미국', '댈러스', '010-5692-1248');
+
+<airline_filght 테이블> - 25개
+insert into airline_filght values('135', 'GHI456', 'JKL789', '09:10', 'JKL792', '12:10', 296, 100000);
+insert into airline_filght values('136', 'GHI457', 'JKL789', '09:20', 'JKL793', '12:20', 296, 110000);
+insert into airline_filght values('137', 'GHI458', 'JKL789', '09:30', 'JKL794', '12:30', 296, 120000);
+insert into airline_filght values('138', 'GHI459', 'JKL789', '09:40', 'JKL795', '12:40', 296, 130000);
+insert into airline_filght values('139', 'GHI460', 'JKL789', '09:50', 'JKL796', '12:50', 296, 140000);
+insert into airline_filght values('140', 'GHI461', 'JKL789', '10:10', 'JKL797', '13:10', 306, 150000);
+insert into airline_filght values('141', 'GHI462', 'JKL789', '10:20', 'JKL798', '13:20', 306, 160000);
+insert into airline_filght values('142', 'GHI463', 'JKL789', '10:30', 'JKL799', '13:30', 306, 170000);
+insert into airline_filght values('143', 'GHI464', 'JKL789', '10:40', 'JKL800', '13:40', 306, 180000);
+insert into airline_filght values('144', 'GHI465', 'JKL789', '10:50', 'JKL801', '13:50', 306, 190000);
+insert into airline_filght values('145', 'GHI466', 'JKL789', '11:10', 'JKL802', '14:10', 311, 200000);
+insert into airline_filght values('146', 'GHI467', 'JKL789', '11:20', 'JKL803', '14:20', 311, 210000);
+insert into airline_filght values('147', 'GHI468', 'JKL790', '11:30', 'JKL792', '14:30', 311, 220000);
+insert into airline_filght values('148', 'GHI469', 'JKL790', '11:40', 'JKL793', '14:40', 311, 230000);
+insert into airline_filght values('149', 'GHI470', 'JKL790', '11:50', 'JKL794', '14:50', 311, 240000);
+insert into airline_filght values('150', 'GHI471', 'JKL790', '12:10', 'JKL795', '15:10', 316, 150000);
+insert into airline_filght values('151', 'GHI472', 'JKL790', '12:20', 'JKL796', '15:20', 316, 160000);
+insert into airline_filght values('152', 'GHI473', 'JKL790', '12:30', 'JKL797', '15:30', 316, 170000);
+insert into airline_filght values('153', 'GHI474', 'JKL790', '12:40', 'JKL798', '15:40', 316, 180000);
+insert into airline_filght values('154', 'GHI475', 'JKL790', '12:50', 'JKL799', '15:50', 316, 190000);
+insert into airline_filght values('155', 'GHI476', 'JKL790', '13:10', 'JKL800', '16:10', 321, 350000);
+insert into airline_filght values('156', 'GHI477', 'JKL790', '13:20', 'JKL801', '16:20', 321, 340000);
+insert into airline_filght values('157', 'GHI478', 'JKL790', '13:30', 'JKL802', '16:30', 321, 330000);
+insert into airline_filght values('158', 'GHI479', 'JKL790', '13:40', 'JKL803', '16:40', 321, 320000);
+insert into airline_filght values('159', 'GHI480', 'JKL791', '13:50', 'JKL792', '16:50', 321, 310000);
+
+<reservation 테이블> - 100개
+insert into reservation values('500', '135', 'abc123');
+insert into reservation values('501', '136', 'abc124');
+insert into reservation values('502', '137', 'abc125');
+insert into reservation values('503', '138', 'abc126');
+insert into reservation values('504', '139', 'abc127');
+insert into reservation values('505', '140', 'abc128');
+insert into reservation values('506', '141', 'abc129');
+insert into reservation values('507', '142', 'abc130');
+insert into reservation values('508', '143', 'abc131');
+insert into reservation values('509', '144', 'abc132');
+insert into reservation values('510', '145', 'abc133');
+insert into reservation values('511', '146', 'abc134');
+insert into reservation values('512', '147', 'abc135');
+insert into reservation values('513', '148', 'abc136');
+insert into reservation values('514', '149', 'abc137');
+insert into reservation values('515', '150', 'abc138');
+insert into reservation values('516', '151', 'abc139');
+insert into reservation values('517', '152', 'abc140');
+insert into reservation values('518', '153', 'abc141');
+insert into reservation values('519', '154', 'abc142');
+insert into reservation values('520', '155', 'abc143');
+insert into reservation values('521', '156', 'abc144');
+insert into reservation values('522', '157', 'abc145');
+insert into reservation values('523', '158', 'abc146');
+insert into reservation values('524', '159', 'abc147');
+insert into reservation values('525', '135', 'abc148');
+insert into reservation values('526', '136', 'abc149');
+insert into reservation values('527', '137', 'abc150');
+insert into reservation values('528', '138', 'abc151');
+insert into reservation values('529', '139', 'abc152');
+insert into reservation values('530', '140', 'abc153');
+insert into reservation values('531', '141', 'abc154');
+insert into reservation values('532', '142', 'abc155');
+insert into reservation values('533', '143', 'abc156');
+insert into reservation values('534', '144', 'abc157');
+insert into reservation values('535', '145', 'abc158');
+insert into reservation values('536', '146', 'abc159');
+insert into reservation values('537', '147', 'abc160');
+insert into reservation values('538', '148', 'abc161');
+insert into reservation values('539', '149', 'abc162');
+insert into reservation values('540', '150', 'abc163');
+insert into reservation values('541', '151', 'abc164');
+insert into reservation values('542', '152', 'abc165');
+insert into reservation values('543', '153', 'abc166');
+insert into reservation values('544', '154', 'abc167');
+insert into reservation values('545', '155', 'abc168');
+insert into reservation values('546', '156', 'abc169');
+insert into reservation values('547', '157', 'abc170');
+insert into reservation values('548', '158', 'abc171');
+insert into reservation values('549', '159', 'abc172');
+insert into reservation values('550', '135', 'abc173');
+insert into reservation values('551', '136', 'abc174');
+insert into reservation values('552', '137', 'abc175');
+insert into reservation values('553', '138', 'abc176');
+insert into reservation values('554', '139', 'abc177');
+insert into reservation values('555', '140', 'abc178');
+insert into reservation values('556', '141', 'abc179');
+insert into reservation values('557', '142', 'abc180');
+insert into reservation values('558', '143', 'abc181');
+insert into reservation values('559', '144', 'abc182');
+insert into reservation values('560', '145', 'abc183');
+insert into reservation values('561', '146', 'abc184');
+insert into reservation values('562', '147', 'abc185');
+insert into reservation values('563', '148', 'abc186');
+insert into reservation values('564', '149', 'abc187');
+insert into reservation values('565', '150', 'abc188');
+insert into reservation values('566', '151', 'abc189');
+insert into reservation values('567', '152', 'abc190');
+insert into reservation values('568', '153', 'abc191');
+insert into reservation values('569', '154', 'abc192');
+insert into reservation values('570', '155', 'abc193');
+insert into reservation values('571', '156', 'abc194');
+insert into reservation values('572', '157', 'abc195');
+insert into reservation values('573', '158', 'abc196');
+insert into reservation values('574', '159', 'abc197');
+insert into reservation values('575', '135', 'abc198');
+insert into reservation values('576', '136', 'abc199');
+insert into reservation values('577', '137', 'abc200');
+insert into reservation values('578', '138', 'abc201');
+insert into reservation values('579', '139', 'abc202');
+insert into reservation values('580', '140', 'abc203');
+insert into reservation values('581', '141', 'abc204');
+insert into reservation values('582', '142', 'abc205');
+insert into reservation values('583', '143', 'abc206');
+insert into reservation values('584', '144', 'abc207');
+insert into reservation values('585', '145', 'abc208');
+insert into reservation values('586', '146', 'abc209');
+insert into reservation values('587', '147', 'abc210');
+insert into reservation values('588', '148', 'abc211');
+insert into reservation values('589', '149', 'abc212');
+insert into reservation values('590', '150', 'abc213');
+insert into reservation values('591', '151', 'abc214');
+insert into reservation values('592', '152', 'abc215');
+insert into reservation values('593', '153', 'abc216');
+insert into reservation values('594', '154', 'abc217');
+insert into reservation values('595', '155', 'abc218');
+insert into reservation values('596', '156', 'abc219');
+insert into reservation values('597', '157', 'abc220');
+insert into reservation values('598', '158', 'abc221');
+insert into reservation values('599', '159', 'abc222');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,97 @@
+-- sql_customer테이블
+	-- ※customer 테이블의 'cus_id'는 '예약정보' 테이블에 참조되고 있는 속성 입니다. 수정 및 삭제할때 주의하세요
+    
+		-- customer 테이블 튜플 추가 sql문
+			-- insert into customer values('고객 아이디 입력', '비밀번호 입력', '권한레벨 입력', '고객이름 입력', '고객전화번호 입력', '고객 주소 입력');
+            -- 권한레벨은 'USER' 나 'MASTER' 로만 입력해주세요.
+		-- customer 테이블 튜플 수정 sql문
+			-- update customer set 수정_속성=수정_값 where 수정_튜플의_조건;
+		-- customer 테이블 튜플 삭제 sql문
+			-- delete from customer where 삭제_튜플의_조건;
+		-- 로그인시 아이디 비밀번호 대조 sql문
+			-- select count(*) from customer where cus_id like '아이디 입력' and cus_pswd like '비밀번호 입력'
+            -- 위 값이 1이 나오면 로그인 가능.
+     
+-- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------            
+        
+-- sql_airplane테이블
+	-- ※airplane 테이블의 'airplane_id'는 'airplane_seat'와 'airline_filght'에 참조되고 있는 속성 입니다. 수정 및 삭제할때 주의하세요.
+	-- ※airplane 테이블의 'airplane_model'은 'airplane_seat'테이블의 'airplane_model'을 참조하고 있는 외래키 속성 입니다. 
+	-- ※위의 외래키 속성때문에 튜플을 삽입, 수정 할때 'airplane_seat' 테이블에서 알맞은 속성값을 찾아 대입해야 합니다. 다음은 'airplane_seat' 테이블에서 'airplane_model'속성을 나열하는 sql문 입니다.
+	-- ※select airplane_model from airplane_seat;
+	-- ※삽입, 수정 할때 위 sql문을 통해 받은 목록에서 원하는 속성값을 선택하세요.
+    
+		-- airplane 테이블 튜플 추가 sql문
+			-- insert into airplane values('비행기 아이디 입력', '비행기 기종 입력', '소속 항공사 입력');
+		-- airplane 테이블 튜플 수정 sql문
+			-- update airplane set 수정_속성=수정_값 where 수정_튜플의_조건;
+		-- airplane 테이블 튜플 삭제 sql문
+			-- delete from airplane where 삭제_튜플의_조건;
+            
+-- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+
+-- sql_airplane_seat테이블
+	-- ※airplane_seat 테이블의 'airplane_model'는 'airplane'테이블에 참조되고 있는 속성 입니다. 수정 및 삭제할때 주의하세요.
+    
+		-- sql_airplane_seat 테이블 튜플 추가 sql문
+			-- insert into airplane_seat values('비행기 기종 입력', '좌석수 입력');
+		-- sql_airplane_seat테이블 테이블 튜플 수정 sql문
+			-- update airplane_seat set 수정_속성=수정_값 where 수정_튜플의_조건;
+		-- sql_airplane_seat 테이블 테이블 튜플 삭제 sql문
+			-- delete from airplane_seat where 삭제_튜플의_조건;
+            
+-- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+        
+-- sql_airport테이블
+	-- ※airport 테이블의 'airport_id'는 'airline_filght'테이블에 참조되고 있는 속성 입니다. 수정 및 삭제할때 주의하세요.
+    
+		-- airport 테이블 튜플 추가 sql문
+			-- insert into airport values('공항 아이디 입력', '소속 국가 입력', '공항주소 입력', '공항 전화번호 입력');
+		-- airport 테이블 튜플 수정 sql문
+			-- update airport set 수정_속성=수정_값 where 수정_튜플의_조건;
+		-- airport 테이블 튜플 삭제 sql문
+			-- delete from airport where 삭제_튜플의_조건;
+            
+-- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+        
+-- sql_airline_filght테이블
+	-- ※airline_filght 테이블의 'filght_num'은 'reservation'테이블에 참조되고 있는 속성 입니다. 수정 및 삭제할때 주의하세요.
+	-- ※airline_filght 테이블의 'airplane_id'는 'airplane'테이블의 'airplane_id'를 참조하고 있는 외래키 속성 입니다. 
+	-- ※위의 외래키 속성때문에 튜플을 삽입, 수정 할때 'airplane' 테이블에서 알맞은 속성값을 찾아 대입해야 합니다. 다음은 'airplane' 테이블에서 'airplane_id'속성을 나열하는 sql문 입니다.
+	-- ※select airplane_id from airplane;
+	-- ※삽입, 수정 할때 위 sql문을 통해 받은 목록에서 원하는 속성값을 선택하세요.
+	-- ※airline_filght 테이블의 'airport_start'와 'airport_des'는 'airport'테이블의 'airport_id'을 참조하고 있는 외래키 속성 입니다. 
+	-- ※위의 외래키 속성때문에 튜플을 삽입, 수정 할때 'airport' 테이블에서 알맞은 속성값을 찾아 대입해야 합니다. 다음은 'airport' 테이블에서 'airport_id'속성을 나열하는 sql문 입니다.
+	-- ※select airport_id from airport;
+	-- ※삽입, 수정 할때 위 sql문을 통해 받은 목록에서 원하는 속성값을 선택하세요.
+	-- ※'left_seat'는 ("해당 항공편의 비행기 기종의 최대 좌석수" - "해당 항공편을 예약한 튜플의 개수")가 됩니다.
+	-- ※"해당 항공편의 비행기 기종의 최대 좌석수"를 구하는 sql문 입니다.
+	-- ※select seat from airplane_seat where (select airplane_model from airplane, airline_filght where airplane.airplane_id like airline_filght.airplane_id) = airplane_seat.airplane_model;
+	-- ※"해당 항공편을 예약한 튜플의 개수"를 구하는 sql문 입니다.
+	-- ※select count(*) from reservation, airline_filght where reservation.filght_num = airline_filght.filght_num;
+    
+		-- airline_filght 테이블 튜플 추가 sql문
+			-- insert into airline_filght values('항공편 번호 입력', '비행기 아이디 입력', '출발지 입력', '출발시간 입력', '도착지 입력', '도착시간 입력', '남은 좌석 입력', '비용 입력');
+		-- airline_filght 테이블 튜플 수정 sql문
+			-- update airline_filght set 수정_속성=수정_값 where 수정_튜플의_조건;
+		-- airline_filght 테이블 튜플 삭제 sql문
+			-- delete from airline_filght where 삭제_튜플의_조건;
+
+-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+-- sql_reservation테이블
+	-- ※reservation 테이블의 'filght_num'은 'airline_filght'테이블의 'filght_num'을 참조하고 있는 외래키 속성 입니다. 
+    -- ※위의 외래키 속성때문에 튜플을 삽입, 수정 할때 'airline_filght' 테이블에서 알맞은 속성값을 찾아 대입해야 합니다. 다음은 'airline_filght' 테이블에서 'filght_num'속성을 나열하는 sql문 입니다.
+	-- ※select filght_num from airline_filght;
+	-- ※삽입, 수정 할때 위 sql문을 통해 받은 목록에서 원하는 속성값을 선택하세요.
+	-- ※reservation 테이블의 'cus_id'은 'customer'테이블의 'cus_id'를 참조하고 있는 외래키 속성 입니다. 
+    -- ※위의 외래키 속성때문에 튜플을 삽입, 수정 할때 'customer' 테이블에서 알맞은 속성값을 찾아 대입해야 합니다. 다음은 'customer' 테이블에서 'cus_id'속성을 나열하는 sql문 입니다.
+	-- ※select cus_id from customer;
+	-- ※삽입, 수정 할때 위 sql문을 통해 받은 목록에서 원하는 속성값을 선택하세요.
+    
+		-- reservation 테이블 튜플 추가 sql문
+			-- insert into reservation values('예약번호 입력', '항공편 번호 입력', '고객 아이디 입력');
+		-- reservation 테이블 튜플 수정 sql문
+			-- update reservation set 수정_속성=수정_값 where 수정_튜플의_조건;
+		-- reservation 테이블 튜플 삭제 sql문
+			-- delete from reservation where 삭제_튜플의_조건;
